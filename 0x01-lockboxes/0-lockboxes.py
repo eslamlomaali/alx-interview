@@ -7,7 +7,7 @@ Solution for lockboxes task
 def canUnlockAll(boxes):
     """
     Determines if the  locked boxes can be opened
-    based on keysto the other boxes. 
+    based on keysto the other boxes.
     """
     if (type(boxes)) is not list:
         return False
